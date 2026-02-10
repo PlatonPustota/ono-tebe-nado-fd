@@ -69,7 +69,6 @@ a {
   z-index: 1;
 }
 
-
 .cover {
   position: relative;
   min-height: 757px;
@@ -114,7 +113,7 @@ a {
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin: 118px 50px 50px;
+  margin: 118px 50px 55px;
   z-index: 3;
 }
 
@@ -141,7 +140,7 @@ a {
 
 .lots {
   width: 1052px;
-  margin: 0 24px 40px;
+  margin: 0 24px;
 }
 
 .lots__heading {
@@ -150,6 +149,7 @@ a {
   padding-bottom: 27px;
   font-size: 40px;
   font-weight: 700;
+  margin-top: -10px;
 }
 
 .lots__card-list {
@@ -207,9 +207,8 @@ a {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
-  padding-bottom: 12px;
+  padding-bottom: 5px;
 }
-
 
 .card_type_film {
   background: url(/images/card-lot-01.jpg);
@@ -231,11 +230,12 @@ a {
 
 .lots__look-more-link {
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 25px;
   margin-left: 40px;
   border: 1px solid rgba(0, 0, 0, 1);
   font-size: 20px;
   font-weight: 400;
+  
 }
 
 .about {
@@ -244,7 +244,7 @@ a {
   grid-template-columns: 334px 1fr;
   column-gap: 60px;
   align-items: start;
-  margin: 118px 24px 0 24px;
+  margin: 118px 24px 0;
 }
 
 .about__logo {
@@ -263,7 +263,7 @@ a {
 }
 
 .about__column {
-width: 693px;
+  width: 693px;
 }
 
 .about__title {
@@ -289,10 +289,10 @@ width: 693px;
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-self: start;
   column-gap: 80px;
   margin-top: 180px;
-  
+  padding: 0 50px 81px 50px;
+  align-items: start;
 }
 
 .footer__address {
@@ -302,7 +302,8 @@ width: 693px;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
-  padding-left: 51.1px;
+  margin-bottom: 82px;
+  margin-top: -13px;
 }
 
 .footer__menu {
@@ -310,32 +311,28 @@ width: 693px;
   flex-direction: column;
   text-align: center;
   font-size: 18px;
+  margin-top: -13px;
 }
 
 .footer__menu-list {
   list-style-type: none;
-  padding: 0;
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
   text-decoration: none;
 }
 
 .footer__social-list {
-  
   display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
   gap: 48px;
   justify-self: end;
-  padding-right: 50px;
-
+  margin-top: -13px;
 }
 
 .footer__social-list-item {
-
-width: 48px;
-height: 48px;
-
+  width: 48px;
+  height: 48px;
 }
