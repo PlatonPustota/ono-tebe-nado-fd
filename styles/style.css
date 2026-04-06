@@ -25,7 +25,13 @@
   padding-bottom: 10px;
 }
 
-.header__link_active {
+.header__link {
+  text-decoration: underline;
+  color: black;
+  font-size: 18px;
+}
+
+.header__link_no-underline {
   text-decoration: none;
 }
 
@@ -108,7 +114,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin: 118px 50px 55px;
+  margin: 106px 50px 55px;
   z-index: 3;
 }
 
@@ -120,20 +126,19 @@
   text-transform: uppercase;
   word-spacing: 0.85em;
   letter-spacing: 0;
+  margin-top: 10px;
 }
 
 .bet_button {
   display: flex;
   text-transform: uppercase;
   border: 1px solid white;
-  justify-content: space-between;
   color: white;
   background-color: transparent;
   font-size: 22px;
   font-weight: 400;
   padding: 12px 32px;
   line-height: 1;
-  margin-top: -12px;
 }
 
 .lots {
